@@ -1,0 +1,10 @@
+<div class="leaderboard-container overflow-hidden shadow-8">
+    <div class="users" *ngFor="let item of userslist;let i = index">
+        <p-card styleClass="h-full w-full">
+            <h1 class="mb-2">
+                {{ item.name }}
+            </h1>
+            <span><b>Puntaje:</b> {{ item.puntaje }}</span>
+        </p-card>
+    </div>
+</div>

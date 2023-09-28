@@ -1,0 +1,11 @@
+.leaderboard-container {
+    padding: 2rem;
+    width: 50vw;
+    height: 70vh;
+    border-radius: 1vw;
+    overflow: none;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}

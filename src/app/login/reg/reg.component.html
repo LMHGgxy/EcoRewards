@@ -1,0 +1,12 @@
+<p-panel class="w-full">
+    <ng-template pTemplate="header">
+        <span
+            class="font-semibold text-xl flex w-full h-full justify-content-center align-items-center">REGISTER</span>
+    </ng-template>
+    <div class="flex flex-column gap-4 mb-1">
+        <input (input)="changeUsername($event)" placeholder="Ingrese su nombre de usuario" pAutoFocus pInputText [autofocus]="true">
+        <input type="number" (input)="changeDni($event)" placeholder="Ingrese su dni" pAutoFocus pInputText>
+        <input (input)="changeEmail($event)" placeholder="Ingrese su correo" pAutoFocus pInputText>
+        <input (input)="changePassword($event)" placeholder="Ingrese su password" pInputText>
+    </div>
+</p-panel>

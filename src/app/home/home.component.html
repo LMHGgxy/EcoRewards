@@ -1,0 +1,8 @@
+<div class="home flex justify-content-center align-items-center w-screen h-screen">
+    <p-dock class="nav" [model]="items" [position]="position">
+        <ng-template pTemplate="item" let-item>
+            <img class="cursor-pointer" [src]="item.icon" [alt]="item.label" width="100%" />
+        </ng-template>
+    </p-dock>
+    <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,10 @@
+<p-panel class="w-full">
+    <ng-template pTemplate="header">
+        <span
+            class="font-semibold text-xl flex w-full h-full justify-content-center align-items-center">LOGIN</span>
+    </ng-template>
+    <div class="flex flex-column gap-4 mb-1">
+        <input (input)="changeUsername($event)" placeholder="Ingrese su nombre de usuario" pAutoFocus pInputText [autofocus]="true">
+        <input (input)="changePassword($event)" type="password" placeholder="Ingrese su password" pInputText>
+    </div>
+</p-panel>

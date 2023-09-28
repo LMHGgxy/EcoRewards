@@ -1,0 +1,18 @@
+<div class="flex justify-content-center align-items-center h-screen w-screen">
+    <p-toast></p-toast>
+    <div class="flex flex-column login overflow-hidden shadow-8">
+        <p-card>
+            <ng-template pTemplate="content">
+                <router-outlet></router-outlet>
+            </ng-template>
+            <ng-template pTemplate="footer">
+                <div class="form-buttons flex justify-content-center align-items-center gap-6">
+                    <p-button (onClick)="Login()" icon="pi pi-angle-right" label="Ingresar"
+                        styleClass="p-button-text p-button-success"></p-button>
+                    <p-button (onClick)="Register()" icon="pi pi-angle-right" [label]="registerLabel"
+                        styleClass="p-button-text"></p-button>
+                </div>
+            </ng-template>
+        </p-card>
+    </div>
+</div>

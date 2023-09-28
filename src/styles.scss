@@ -1,0 +1,16 @@
+@import 'primeflex/primeflex.scss';
+@import "primeng/resources/themes/tailwind-light/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+html {
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(90deg, rgb(38.824% 99.608% 99.608%) 0%, rgb(41.673% 99.655% 93.434%) 6.25%, rgb(44.338% 99.7% 87.659%) 12.5%, rgb(46.82% 99.741% 82.282%) 18.75%, rgb(49.118% 99.779% 77.304%) 25%, rgb(51.232% 99.815% 72.724%) 31.25%, rgb(53.162% 99.847% 68.542%) 37.5%, rgb(54.908% 99.876% 64.758%) 43.75%, rgb(56.471% 99.902% 61.373%) 50%, rgb(57.849% 99.925% 58.385%) 56.25%, rgb(59.044% 99.945% 55.797%) 62.5%, rgb(60.055% 99.962% 53.606%) 68.75%, rgb(60.882% 99.975% 51.814%) 75%, rgb(61.526% 99.986% 50.42%) 81.25%, rgb(61.985% 99.994% 49.424%) 87.5%, rgb(62.261% 99.998% 48.827%) 93.75%, rgb(62.353% 100% 48.627%) 100% )
+}

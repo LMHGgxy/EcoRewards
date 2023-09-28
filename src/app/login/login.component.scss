@@ -1,0 +1,11 @@
+.login{
+    border-radius: 1vw;
+    background-color: white;
+    width: 25vw;
+}
+@media(max-width:992px) {
+    .login{
+        width: 100%;
+        border-radius: 0;
+    }
+}
