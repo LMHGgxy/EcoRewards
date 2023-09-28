@@ -10,8 +10,7 @@
 /node_modules
 npm-debug.log
 yarn-error.log
-.gitignore
-/prueba.js
+
 # IDEs and editors
 .idea/
 .project
@@ -41,5 +40,3 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
-.hintrc
-.editorconfig
